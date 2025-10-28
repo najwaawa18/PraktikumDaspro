@@ -1,4 +1,4 @@
-package jobsheet5;
+package jobsheet6;
 import java.util.Scanner;
 public class Tugas {
     public static void main(String[] args) {
@@ -45,7 +45,7 @@ public class Tugas {
         double uts2 = sc.nextDouble();
         System.out.print("Nilai UAS\t\t\t\t : ");
         double uas2 = sc.nextDouble();
-        System.out.print("Nilai Tugas\t\t\t\t: ");
+        System.out.print("Nilai Tugas\t\t\t\t : ");
         double tugas2 = sc.nextDouble();
         double nilaiAkhir2 = (uts2 * 0.3) + (uas2 * 0.4) + (tugas2 * 0.3);
         String grade2;
@@ -91,7 +91,7 @@ public class Tugas {
         System.out.println("Nilai Akhir   : " + nilaiAkhir2);
         System.out.println("Grade         : " + grade2);
         System.out.println("Status        : " + statusKe2String);
-        System.out.println("\nRata-rata Nilai Akhir : " + (int) rataRata);
+        System.out.println("\nRata-rata Nilai Akhir\t: " + (int) rataRata);
         System.out.println("Status Semester         : " + statusSemester);
 
         }
